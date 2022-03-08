@@ -31,8 +31,9 @@ public class Myhomework {
         char Lastnameinitial = 'K';
         System.out.println("\nMy initial is " + Myinitial + Lastnameinitial);
 
-        String Fullname = "My full name is Masrur Karimov";
-        System.out.println("My full name is Masrur Karimov");
+        String MyFirstName = "Masrur";
+                String MyLastName = "Karimov";
+        System.out.println("My full name is " + MyFirstName + " " +  MyLastName);
 
     }
 
