@@ -51,10 +51,24 @@ public class JavaOperators {
         double cTemp3 = kTemp3 - 273.15;
         System.out.println("\n" + kTemp3 + "˚K is equal to " + cTemp3 + "˚C");
 
-        // Convert K to F
-        double fTemp4 = 45;
-        double kTemp4 = fTemp4 * 9/5 - 459.67;
-        System.out.println("\n" + fTemp4 + "˚K is equal to " + kTemp4 + "°F");
+        // Convert K to F // To print: press "n\" and add (+) ktemp4 to add (+) print text "K is equal to fTemp4 then
+        // add + "F"
+        double kTemp4 = 45;
+        double fTemp4 = kTemp4 * 9/5 - 459.67;
+        System.out.println("\n" + kTemp4 + "˚K is equal to " + fTemp4 + "°F");
+
+
+
+
+
+
+
+        // Convert F to C // T(°F) = T(°C) × 9/5 + 32
+
+        double fTemp5 = 57;
+        double cTem5 = fTemp5 * 9/5 + 32;
+        System.out.println("\n" + fTemp5 + "°F is equal to " + cTem5 + "°C" );
+
 
 
     }

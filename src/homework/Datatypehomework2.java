@@ -1,6 +1,6 @@
-package Myjavapackage;
+package homework;
 
-public class Myhomework {
+public class Datatypehomework2 {
 
 
     public static void main(String[] args) {
